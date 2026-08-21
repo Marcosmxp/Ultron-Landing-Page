@@ -8,6 +8,20 @@ This project follows [Semantic Versioning](https://semver.org/):
 - **MINOR**: new sections, interactions, experiments or conversion features.
 - **PATCH**: fixes, copy refinements, accessibility and performance improvements.
 
+## [0.3.0] - 2026-08-21
+
+### Added
+- Full-screen adaptive particle field across the landing experience
+- Pointer and touch-reactive particle displacement and energy pulses
+- Hero particle convergence around the Ultron core
+- Scroll-driven particle velocity and motion trails
+- Hardware-aware particle density for desktop, tablet and mobile
+- Reduced-motion static fallback
+
+### Changed
+- Extended the immersive visual system beyond the hero to the full page
+- Preserved the same interaction language on mobile instead of falling back to a simplified static experience
+
 ## [0.2.0] - 2026-08-21
 
 ### Added
