@@ -4,7 +4,7 @@ Immersive, conversion-first product landing page for the Ultron AI assistant con
 
 ## Current release
 
-`v0.2.0`
+`v0.3.0`
 
 ## Stack
 
@@ -12,6 +12,7 @@ Immersive, conversion-first product landing page for the Ultron AI assistant con
 - React 19.2
 - TypeScript 7.0
 - Motion 13
+- Adaptive Canvas particle system
 
 ## Local development
 
@@ -33,8 +34,8 @@ The project follows Semantic Versioning. The canonical current version is kept i
 
 Examples:
 
-- `0.1.1`: visual or bug fix.
-- `0.2.0`: new section, interaction, experiment or conversion feature.
+- `0.3.1`: visual, performance or bug fix.
+- `0.4.0`: new immersive interaction, product section or conversion feature.
 - `1.0.0`: first stable public product landing release.
 
 ## Security
