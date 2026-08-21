@@ -1,5 +1,11 @@
 import { LandingPage } from "../components/landing-page";
+import { ParticleField } from "../components/particle-field";
 
 export default function Home() {
-  return <LandingPage />;
+  return (
+    <>
+      <ParticleField />
+      <LandingPage />
+    </>
+  );
 }
