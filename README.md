@@ -4,7 +4,7 @@ Immersive, conversion-first product landing page for the Ultron AI assistant con
 
 ## Current release
 
-`v0.1.0`
+`v0.2.0`
 
 ## Stack
 
