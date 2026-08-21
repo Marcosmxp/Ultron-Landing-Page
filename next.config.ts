@@ -1,5 +1,12 @@
 import type { NextConfig } from "next";
 
+const portfolioFrameAncestors = [
+  "'self'",
+  "https://marcosdiasdev.vercel.app",
+  "https://marcosdiasdev-marcos-dias-projects-701a4824.vercel.app",
+  "https://marcosdiasdev-git-main-marcos-dias-projects-701a4824.vercel.app",
+].join(" ");
+
 const securityHeaders = [
   {
     key: "Content-Security-Policy",
@@ -14,13 +21,12 @@ const securityHeaders = [
       "object-src 'none'",
       "base-uri 'self'",
       "form-action 'self'",
-      "frame-ancestors 'none'",
+      `frame-ancestors ${portfolioFrameAncestors}`,
       "upgrade-insecure-requests",
     ].join("; "),
   },
   { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
   { key: "X-Content-Type-Options", value: "nosniff" },
-  { key: "X-Frame-Options", value: "DENY" },
   {
     key: "Permissions-Policy",
     value: "camera=(), microphone=(), geolocation=(), payment=(), usb=()",
