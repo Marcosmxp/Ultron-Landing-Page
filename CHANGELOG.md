@@ -8,6 +8,19 @@ This project follows [Semantic Versioning](https://semver.org/):
 - **MINOR**: new sections, interactions, experiments or conversion features.
 - **PATCH**: fixes, copy refinements, accessibility and performance improvements.
 
+## [0.2.0] - 2026-08-21
+
+### Added
+- Cinematic interactive hero and 3D-style core system
+- Scroll-controlled product storytelling sequence
+- Expanded live-workflow product demo
+- Conversion-focused value and audience sections
+- Reduced-motion accessibility fallback
+
+### Changed
+- Reworked product messaging around delegation and outcomes
+- Strengthened founding-access purchase funnel
+
 ## [0.1.0] - 2026-08-21
 
 ### Added
